@@ -12,7 +12,10 @@
     Введите множитель
     <input class="inputTwo" type="number">
     <button class="btn">Посчитать</button>
+    <h1 id="result"></h1>
 
-    <script type="module" src="./index.js"></script>
+    <script type="module" src="./index.js">
+        document.getElementById("result").innerText = result;
+    </script>
 </body>
 </html>
