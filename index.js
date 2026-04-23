@@ -12,4 +12,7 @@ nodeBtn.addEventListener("click", ()=>{
     if (multiply(nodeInputOne.value, nodeInputTwo.value) == "ПОСХАААЛКООООООООООООООООООООООООООООOOO") {
         document.getElementById("dooo").src = "https://i.pinimg.com/1200x/c0/db/a8/c0dba857ad7be753f6d765b48e4bfb92.jpg";
     }
+    else {
+        document.getElementById("dooo").src = "https://i.pinimg.com/1200x/ee/c2/b6/eec2b6e5177bf7b19695aa2a0c7e7383.jpg";
+    }
 });
